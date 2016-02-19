@@ -1,9 +1,7 @@
 #README
 
-A todo app in Ember JS
+A todo app in Ember JS - CRUD
 
 ##Framework
 
 Ember JS
-
-###Work in progress....
