@@ -4,6 +4,9 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'awesome-blogger',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
+    // contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://awesomeblogger.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
